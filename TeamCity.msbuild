@@ -2,6 +2,6 @@
 	<UsingTask AssemblyFile="xunit.runner.msbuild.dll" TaskName="Xunit.Runner.MSBuild.xunit"/>
 	<Target Name="Build"> 
 		<MSBuild Projects="ZoneLighting.sln" Targets="Build" Properties="Configuration=Release" />
-		<xunit Assembly="Tests\ZoneLightingTests\bin\Release\ZoneLightingTests.dll" /> 
+		<xunit Assembly="Tests\ZoneLightingTests\bin\Release\ZoneLightingTests.dll" TeamCity="true" /> 
 	</Target>
 </Project>
