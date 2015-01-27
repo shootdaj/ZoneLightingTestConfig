@@ -1,7 +1,7 @@
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<UsingTask AssemblyFile="xunit.runner.msbuild.dll" TaskName="Xunit.Runner.MSBuild.xunit"/>
 	<Target Name="Build"> 
-		<MSBuild Projects="ZoneLighting.sln" Targets="Build" Properties="Configuration=Release" />
+		<MSBuild Projects="ProdZoneLighting\ProdZoneLighting.sln" Targets="Build" Properties="Configuration=Release;RunOctoPack=true" />
 		<xunit Assembly="Tests\ZoneLightingTests\bin\Release\ZoneLightingTests.dll" TeamCity="true" /> 
 	</Target>
 </Project>
