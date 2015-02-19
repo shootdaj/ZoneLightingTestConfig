@@ -1,0 +1,3 @@
+MSBuild.exe Plugins.msbuild
+CopyPluginsToWebController.bat
+MSBuild.exe ProdZoneLighting.msbuild
