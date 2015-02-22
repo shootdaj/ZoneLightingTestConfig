@@ -15,5 +15,6 @@
   <files>
 	<file src="Programs\*.*" target="Programs" />
 	<file src="Zones\*.*" target="Zones" />
+	<file src="FadeCandy\*.*" target="FadeCandy" />
   </files>
 </package>

@@ -1,1 +1,0 @@
-fcserver.exe BaiClock.json
