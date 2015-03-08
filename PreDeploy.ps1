@@ -1,0 +1,1 @@
+kill -processname chrome
