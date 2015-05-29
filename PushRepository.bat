@@ -1,2 +1,2 @@
-git remote add origin %1
-git push origin master
+git remote add topush %1
+git push topush master
