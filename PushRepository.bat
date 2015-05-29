@@ -1,1 +1,1 @@
-git push origin %1
+git push master %1
