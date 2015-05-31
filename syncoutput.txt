@@ -1,2 +1,29 @@
 +++++++++++ START +++++++++++++ 
 =====Add Files====== 
+
+=======Status======= 
+On branch master
+Your branch is ahead of 'Github/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   syncoutput.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   syncoutput.txt
+
+
+====Commit Files==== 
+[master ef3dd8e] SYNC from NOVA
+ 1 file changed, 2 insertions(+)
+ create mode 100644 syncoutput.txt
+
+====Pull==== 
+Cannot pull with rebase: You have unstaged changes.
+Please commit or stash them.
+
