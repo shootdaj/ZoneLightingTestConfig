@@ -1,2 +1,2 @@
 mkdir c:\temp
-xcopy Tests\ZoneLightingTests\bin\Debug\* C:\Temp /e /y
+xcopy Tests\ZoneLightingTests\bin\%1\* C:\Temp /e /y
