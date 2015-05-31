@@ -1,2 +1,2 @@
-git remote add topush %1
-git push topush master
+git push Github master
+git push VSO master

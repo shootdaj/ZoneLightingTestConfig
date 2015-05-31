@@ -1,2 +1,2 @@
-git remote add topush https://github.com/shootdaj/ZoneLightingTestConfig.git
-git push topush master
+git push Github master
+git push VSO master
